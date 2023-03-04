@@ -3,7 +3,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        WordsChecker wordsChecker = new WordsChecker(text);
+        WordsChecker wordsChecker = new WordsChecker(text.toLowerCase());
         System.out.println(wordsChecker.hasWord("sit"));
         System.out.println(wordsChecker.hasWord("seD"));
         System.out.println(wordsChecker.hasWord("sasha"));
